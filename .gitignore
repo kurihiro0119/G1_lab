@@ -1,0 +1,6 @@
+build/
+build-*/
+logs/*
+!logs/.gitkeep
+tools/.venv/
+.DS_Store

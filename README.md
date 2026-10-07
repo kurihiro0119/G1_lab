@@ -54,6 +54,11 @@ G1_lab/
 
 ## はじめかた
 
+`third_party/unitree_sdk2` は git submodule。clone するときは `--recursive` を付ける（付け忘れたら `git submodule update --init`）:
+```bash
+git clone --recursive https://github.com/kurihiro0119/G1_lab.git
+```
+
 ### 0. Mac の準備（初回）
 1. 有線LANで G1 と接続し、Mac の有線 IF に `192.168.123.212 / 255.255.255.0` を手動設定
    （システム設定 → ネットワーク → 有線LANアダプタ → 詳細 → TCP/IP → IPv4 を「手入力」）
